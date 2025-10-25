@@ -1,13 +1,13 @@
 /* ==================== CSS VARIABLES ==================== */
 :root {
-  --primary-color: #f7c5a8;
-  --secondary-color: #ffe9d6;
-  --accent-color: #a86e3e;
+  --primary-color: #a8d5f7;
+  --secondary-color: #d6edff;
+  --accent-color: #3e7fa8;
   --text-color: #2c2c2c;
-  --bg-color: #fff9f4;
+  --bg-color: #f4f9ff;
   --white: #ffffff;
-  --shadow: 0 4px 20px rgba(168, 110, 62, 0.1);
-  --shadow-hover: 0 8px 30px rgba(168, 110, 62, 0.15);
+  --shadow: 0 4px 20px rgba(62, 127, 168, 0.1);
+  --shadow-hover: 0 8px 30px rgba(62, 127, 168, 0.15);
   --transition: all 0.3s ease;
 
   --font-heading: "Poppins", sans-serif;
@@ -146,7 +146,7 @@ img {
   position: relative;
   overflow: hidden;
   padding: 120px 0 80px;
-  background: linear-gradient(135deg, #fff9f4 0%, #ffe9d6 50%, #f7c5a8 100%);
+  background: linear-gradient(135deg, #f4f9ff 0%, #d6edff 50%, #a8d5f7 100%);
 }
 
 .hero-background {
@@ -403,7 +403,7 @@ img {
   gap: 40px;
   flex-wrap: wrap;
   padding-top: 30px;
-  border-top: 2px solid rgba(168, 110, 62, 0.2);
+  border-top: 2px solid rgba(62, 127, 168, 0.2);
 }
 
 .stat-item {
@@ -474,7 +474,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 60px rgba(168, 110, 62, 0.3);
+  box-shadow: 0 20px 60px rgba(62, 127, 168, 0.3);
   animation: float 3s ease-in-out infinite;
   z-index: 2;
   border: 8px solid var(--white);
@@ -597,7 +597,7 @@ img {
 }
 
 .btn-primary:hover {
-  background: #8d5d35;
+  background: #2d5f7d;
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
 }
@@ -804,7 +804,7 @@ img {
 .education-description {
   margin-top: 15px;
   padding-top: 15px;
-  border-top: 2px solid rgba(168, 110, 62, 0.2);
+  border-top: 2px solid rgba(62, 127, 168, 0.2);
 }
 
 .education-description p {
@@ -1180,7 +1180,7 @@ img {
 
 .scroll-top:hover {
   transform: translateY(-5px);
-  background: #8d5d35;
+  background: #2d5f7d;
 }
 
 /* ==================== PRELOADER ==================== */
@@ -1190,7 +1190,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #fff9f4 0%, #ffe9d6 50%, #f7c5a8 100%);
+  background: linear-gradient(135deg, #f4f9ff 0%, #d6edff 50%, #a8d5f7 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1206,7 +1206,7 @@ img {
   height: 200%;
   background: radial-gradient(
     circle,
-    rgba(168, 110, 62, 0.1) 0%,
+    rgba(62, 127, 168, 0.1) 0%,
     transparent 70%
   );
   animation: rotate 20s linear infinite;

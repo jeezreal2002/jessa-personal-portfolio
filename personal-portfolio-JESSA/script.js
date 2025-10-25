@@ -287,6 +287,6 @@ if ('IntersectionObserver' in window) {
 
 // ==================== CONSOLE MESSAGE ==================== 
 console.log('%c👋 Welcome to Jessa Mae Sanchez\'s Portfolio!', 
-    'color: #A86E3E; font-size: 20px; font-weight: bold;');
+    'color: #3E7FA8; font-size: 20px; font-weight: bold;');
 console.log('%cBuilt with ❤️ and dedication to hospitality excellence', 
-    'color: #F7C5A8; font-size: 14px;');
+    'color: #A8D5F7; font-size: 14px;');
